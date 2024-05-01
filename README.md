@@ -35,12 +35,13 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 ![Qt pro](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/52a256cc-912f-45b5-ba27-247c12a35f64)
 ---
 
-### IMPORTANT NOTE: your QT app code files should be named "myQTApp", Why?
-
-- Notice that the Makefile is configured to build only `myQTApp` even if i named my file `myQtApp` as shown:
+### NOTE: your QT app .cpp file should be named "myQTApp.cpp", Why?
 
 
-![qtt](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/ebd931a1-d8d9-4298-98e2-be828c8ffff3)
+
+
+![new](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/59b22674-bfe9-4439-b85d-1d1d70ec897d)
+
 
 ---
 
