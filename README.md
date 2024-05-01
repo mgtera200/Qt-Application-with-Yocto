@@ -23,15 +23,19 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 ---
 
 ### Step 2: Test your QT app on Host machine:
-1- Write your QT source code:
+1- Write your QT .cpp file:
 
 
 ![Qt c](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/bc021c18-5ada-4263-b709-32c226af0141)
 
 
+2- Write .pro file:
+
+
+![Qt pro](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/52a256cc-912f-45b5-ba27-247c12a35f64)
 ---
 
-#### IMPORTANT NOTE: your QT app source code should be named "myQTApp.cpp", Why?
+#### IMPORTANT NOTE: your QT app code files should be named "myQTApp", Why?
 
 - Notice that the Makefile is configured to build only `myQTApp` even if i named my file `myQtApp` as shown:
 
@@ -40,10 +44,6 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 ---
 
-2- Write .pro file:
-
-
-![Qt pro](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/52a256cc-912f-45b5-ba27-247c12a35f64)
 
 
 
