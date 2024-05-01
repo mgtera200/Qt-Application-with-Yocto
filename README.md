@@ -74,7 +74,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 
 
-3- Under your own meta-layer create this path `recipes-qtapp/myqtapp/myqtapp_0.1.bb` to add you recipe
+3- Under your own meta-layer create this path `recipes-project/myqtapp/myqtapp_0.1.bb` to add you recipe
 
 
 ![qt path png](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/c5ef5eb0-f2b5-4dee-a020-d87df973711f)
