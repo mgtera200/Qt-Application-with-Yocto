@@ -102,7 +102,6 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 3- Generate the image `bitbake tera-weston -k`
 
 
----
 
 ## Step 4: Test your image on RPI4:
 
