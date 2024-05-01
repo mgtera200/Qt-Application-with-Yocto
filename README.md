@@ -85,7 +85,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 ---
 
-## Step 4: Add the required QT features to your distro
+## Step 4: Add the required features and packages to your image:
 
 1- in the `.conf` file of your distro append those Features:
 
