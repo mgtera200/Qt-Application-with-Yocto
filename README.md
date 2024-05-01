@@ -81,7 +81,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 
 
-4- Copy your QT files to `recipes-qtapp/myqtapp/files`
+4- Copy your QT code files to `recipes-qtapp/myqtapp/files`
 
 ---
 
