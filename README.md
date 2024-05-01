@@ -93,7 +93,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 ![features_append](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/0ef4fd8a-442e-44b7-ab49-019053a5f2d0)
 
 
-2- Edit your image recipe in your layer:
+2- Edit your image recipe in your own layer to include core-image-weston:
 
 
 ![tera-weston](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/4d7e9632-bf06-4ff6-882d-96980ade0bdf)
