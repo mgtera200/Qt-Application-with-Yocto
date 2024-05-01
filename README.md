@@ -33,7 +33,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 #### IMPORTANT NOTE: your QT app source code should be named "myQTApp.cpp", Why?
 
-- Notice that the Makefile is configured to build only `myQTApp` even if i name my file `myQtApp`:
+- Notice that the Makefile is configured to build only `myQTApp` even if i named my file `myQtApp` as shown:
 
 
 ![qtt](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/ebd931a1-d8d9-4298-98e2-be828c8ffff3)
@@ -85,7 +85,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 ---
 
-### Step 4: Add the QT required features to your distro
+### Step 4: Add the required QT features to your distro
 
 1- in the `.conf` file of your distro append those Features:
 
