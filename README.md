@@ -16,13 +16,13 @@ In the world of graphical user interfaces (GUIs) on Linux systems, there are sev
 ## Getting Started with Yocto and Qt
 Now, let's get started with running your first Qt application using Yocto:
 
-### Step 1: Set Up Yocto
+## Step 1: Set Up Yocto
 If you haven't already, follow the Yocto Project Quick Start guide to set up your Yocto environment:
 [image|distro|Mypackage|Qemu|RPi4](https://github.com/mgtera200/YOCTO/tree/main/04-%20tera-image%20%7C%20tera%20distro%20%7C%20My%20package%20%20%7C%20Qemu%20%7C%20RPi4)
 
 ---
 
-### Step 2: Test your QT app on Host machine:
+## Step 2: Test your QT app on Host machine:
 1- Write your QT .cpp file:
 
 
@@ -35,7 +35,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 ![Qt pro](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/52a256cc-912f-45b5-ba27-247c12a35f64)
 ---
 
-#### IMPORTANT NOTE: your QT app code files should be named "myQTApp", Why?
+### IMPORTANT NOTE: your QT app code files should be named "myQTApp", Why?
 
 - Notice that the Makefile is configured to build only `myQTApp` even if i named my file `myQtApp` as shown:
 
@@ -58,7 +58,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 ---
 
-### Step 3: Adding The QT app to our RPI4 Image:
+## Step 3: Adding The QT app to our RPI4 Image:
 
 
 
@@ -85,7 +85,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 ---
 
-### Step 4: Add the required QT features to your distro
+## Step 4: Add the required QT features to your distro
 
 1- in the `.conf` file of your distro append those Features:
 
@@ -100,7 +100,7 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 ---
 
-### Step 4: Test your image on RPI4:
+## Step 4: Test your image on RPI4:
 
 - Open the terminal and type `myQTApp` and everything will work fine:
 
