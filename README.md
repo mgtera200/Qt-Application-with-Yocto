@@ -98,6 +98,8 @@ If you haven't already, follow the Yocto Project Quick Start guide to set up you
 
 ![tera-weston](https://github.com/mgtera200/Qt-Application-with-Yocto/assets/127119775/4d7e9632-bf06-4ff6-882d-96980ade0bdf)
 
+
+3- Generate the image `bitbake tera-weston -k`
 ---
 
 ## Step 4: Test your image on RPI4:
